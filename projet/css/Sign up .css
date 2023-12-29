@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../img/House\ .jpg') no-repeat;
+    padding: 30px 40px;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    max-width:  650px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(25, 3, 70, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+}
+.form-title{
+    font-size: 36px;
+    text-align: center;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    padding: 20px 0;
+}
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap:  wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.user-input-box input{
+        width: 95%;
+        height: 40%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 40px;
+        font-size: 16px;
+        color:#fff;
+        padding: 20px 45px 20px 20px;
+    }
+   .user-input-box input::placeholder{
+        color: #fff;
+    }
+.user-title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.user-category{
+    margin: 15px 0;
+    color: #fff;
+}
+.user-category label{
+    padding: 0 20px 0 5px;
+}
+.user-category label,.user-category input,.form-submit-btn input{
+    cursor: pointer;
+}
+.form-submit-btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-submit-btn input{
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor:pointer;
+    font-size:  16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.sign-up-page .text-wrapper-6 {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    font-family: "Inika-Bold", Helvetica;
+    font-weight: 700;
+    color: #262626;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20.6px;
+    white-space: nowrap;
+  }
